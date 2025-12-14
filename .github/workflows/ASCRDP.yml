@@ -1,6 +1,8 @@
 name: Windows RDP via Ngrok
 
-on: [push]
+on:
+  push:
+  workflow_dispatch:
 
 jobs:
   rdp-setup:
